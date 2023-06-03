@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/png" rel="icon" href="calculator.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <header><h1>Web Simple Calculator</h1></header>
+    <main>
+        <div class="calculator">
+            <div class="display">
+                <p id="expression">xxx</p>
+                <p id="user-input">xxx</p>
+            </div>
+            <div class="tools">
+                <button onclick="this.blur()" id="clearEntry">CE</button>
+                <button onclick="this.blur()" id="clear">C</button>
+                <button onclick="this.blur()" id="porcentage">%</button>
+                <button onclick="this.blur()" id="divided">/</button>
+
+                <button onclick="this.blur()" class="numbers">7</button>
+                <button onclick="this.blur()" class="numbers">8</button>
+                <button onclick="this.blur()" class="numbers">9</button>
+                <button onclick="this.blur()" class="numbers">x</button>
+
+                <button onclick="this.blur()" class="numbers">4</button>
+                <button onclick="this.blur()" class="numbers">5</button>
+                <button onclick="this.blur()" class="numbers">6</button>
+                <button onclick="this.blur()" id="minus">-</button>
+
+                <button onclick="this.blur()" class="numbers">1</button>
+                <button onclick="this.blur()" class="numbers">2</button>
+                <button onclick="this.blur()" class="numbers">3</button>
+                <button onclick="this.blur()" id="sum">+</button>
+
+                <button onclick="this.blur()" id="changeSymbol">+/-</button>
+                <button onclick="this.blur()" class="numbers">0</button>
+                <button onclick="this.blur()" id="float">.</button>
+                <button onclick="this.blur()" id="equal">=</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>
+            Copyright ©
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            Albert Marques
+        </p>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
