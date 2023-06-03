@@ -11,6 +11,7 @@ body{
 }
 
 header {
+    margin-top: 2em;
     text-align: center;
 }
 
@@ -35,16 +36,23 @@ footer{
     margin: 0 2em;
     padding-top: 1em;
     width: 350px;
-    height: 450px;
+    height: 455px;
 }
 
 .display {
     border: 1px solid black;
     border-radius: 5px;
     text-align: right;
-    padding: 1em 1em;
+    padding: 1em 1.5em;
     margin: 0 1.5em;
-    margin-bottom: 0.5em;
+}
+
+#expression{
+    font-size: 1em;
+}
+
+#user-input{
+    font-size: 1.5em;
 }
 
 .tools{
