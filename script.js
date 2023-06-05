@@ -6,7 +6,7 @@ class Calculator {
     }
   
     clear() { // Does clean everything in display
-        this.currentOperand = ''
+        this.currentOperand = '0'
         this.previousOperand = ''
         this.operation = undefined
     }
