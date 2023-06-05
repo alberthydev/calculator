@@ -26,7 +26,7 @@ header {
 
 h1{
     border-bottom: 3px solid #fffcf2;
-    margin: 0.2em 10em;
+    margin: 1em 10em;
 }
 
 main{
@@ -34,8 +34,10 @@ main{
     display: flex;
     justify-content: center;
     background-color: #219ebc;
-    margin: 2em 32em;
+    width: 325px;
+    height: 500px;
     border-radius: 5px;
+    margin: 3em auto;
 }
 
 footer{
